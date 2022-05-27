@@ -2,11 +2,11 @@
 var i = 0;
 
 $(document).click(function() {
-  var a = Math.floor(Math.random()*9 + 2); // 2 to 10
+  var a = Math.floor(Math.random()*8 + 3); // 3 to 10
   if (a = 10) {
     a = 11;
   }
-  var b = Math.floor(Math.random()*9 + 2);
+  var b = Math.floor(Math.random()*8 + 3);
   if (b = 10) {
     b = 11;
   }
