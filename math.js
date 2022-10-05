@@ -22,7 +22,7 @@ $(document).click(function() {
 
   setTimeout(function() {
     $(".answer").text(a*b);
-  }, 3000);
+  }, 2500);
 
 
 })
