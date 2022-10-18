@@ -18,11 +18,13 @@ $(document).click(function() {
   i = i + 1;
   $(".count").text(i);
 
-  
+
 
   setTimeout(function() {
     $(".answer").text(a*b);
-  }, 2500);
+    console.log($("#delay"));
+
+  }, $("#delay").val() * 1000);
 
 
 })
