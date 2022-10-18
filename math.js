@@ -1,9 +1,9 @@
 // alert("js is working")
 var i = 0;
 
-$(document).click(function() {
+$(".go").click(function() {
 
-  $(".answer").text("");
+  $(".answer").text(".");
 
   var a = Math.floor(Math.random()*9 + 3); // 3 to 12
   if (a >= 10) {
@@ -22,7 +22,7 @@ $(document).click(function() {
 
   setTimeout(function() {
     $(".answer").text(a*b);
-    console.log($("#delay"));
+    console.log($("#delay").val());
 
   }, $("#delay").val() * 1000);
 

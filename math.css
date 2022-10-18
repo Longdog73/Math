@@ -19,3 +19,38 @@
   font-size: 8rem;
   font-weight: 700;
 }
+
+.go {
+  text-align: center;
+}
+
+.go-button {
+  margin: 50px;
+  font-family: sans-serif;
+  font-size: 8rem;
+  font-weight: 700;
+}
+
+.delay {
+  text-align: center;
+  padding: 10%;
+}
+
+datalist {
+  margin: 10px auto 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  writing-mode: horizontal-tb;
+  width: 200px;
+}
+
+option {
+  padding: 0;
+}
+
+input[type="range"] {
+  text-align: center;
+  width: 200px;
+  margin: 0;
+}
