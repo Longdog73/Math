@@ -39,6 +39,11 @@
 .delay {
   text-align: center;
   padding: 100px;
+}
+
+label {
+  font-size: 2rem;
+  font-weight: 700;
 
 }
 
@@ -52,7 +57,7 @@ datalist {
   flex-direction: row;
   justify-content: space-between;
   writing-mode: horizontal-tb;
-  width: 200px;
+  width: 400px;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -63,6 +68,6 @@ option {
 
 input[type="range"] {
   text-align: center;
-  width: 200px;
+  width: 400px;
   margin: 0;
 }
