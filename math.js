@@ -3,7 +3,8 @@ var i = 0;
 
 $(".go").click(function() {
 
-  $(".answer").text(".");
+  // $(".answer").text(".");
+  $(".answer").css("color", "white");
 
   var a = Math.floor(Math.random()*9 + 3); // 3 to 12
   if (a >= 10) {
@@ -22,7 +23,8 @@ $(".go").click(function() {
 
   setTimeout(function() {
     $(".answer").text(a*b);
-    console.log($("#delay").val());
+    $(".answer").css("color", "black");
+    // console.log($("#delay").val());
 
   }, $("#delay").val() * 1000);
 
